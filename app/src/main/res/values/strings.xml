@@ -6,4 +6,11 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="categorias">Categorias</string>
+    <string name="favotiros">Favotiros</string>
+    <string name="locais_visitados">Locais Visitados</string>
+    <string name="configura_es">Configurações</string>
+    <string name="communicate">Communicate</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="enviar">Enviar</string>
 </resources>
