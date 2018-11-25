@@ -20,14 +20,19 @@
             android:id="@+id/nav_config"
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/configura_es" />
+
+        <item
+            android:id="@+id/nav_parceiros"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Parceiros" />
+
     </group>
+
+
 
     <item android:title="@string/communicate">
         <menu>
-            <item
-                android:id="@+id/nav_compartilhar"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/compartilhar" />
+
             <item
                 android:id="@+id/nav_enviar"
                 android:icon="@drawable/ic_menu_send"

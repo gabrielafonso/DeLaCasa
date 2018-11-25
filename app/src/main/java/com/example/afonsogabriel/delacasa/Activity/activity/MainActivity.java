@@ -1,4 +1,4 @@
-package com.example.afonsogabriel.delacasa;
+package com.example.afonsogabriel.delacasa.Activity.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.afonsogabriel.delacasa.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -89,8 +94,8 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_config) {
 
-        } else if (id == R.id.nav_compartilhar) {
-            
+        } else if (id == R.id.nav_parceiros) {
+
         } else if (id == R.id.nav_enviar) {
             startActivity(new Intent(this, SobreActivity.class));
 
@@ -99,6 +104,9 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
 }
+}
+
+
+
+

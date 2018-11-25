@@ -1,4 +1,4 @@
-package com.example.afonsogabriel.delacasa;
+package com.example.afonsogabriel.delacasa.Activity.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,14 +15,8 @@ public class SobreActivity extends AppCompatActivity {
         View sobre = new AboutPage(this)
 
                // .setImage(R.mipmap.ic_logo_vermelho)
-                //trocar os dados
                 .addGroup("Contato")
-                .addEmail("mcdonalds@gmail.com")
-                .addWebsite("http://www.mcdonalds.com.br/")
-                .addGroup("Redes Socias")
-                .addFacebook("McDonaldsBrasil")
-                .addTwitter("McDonalds_BR")
-                .addInstagram("mcdonalds_br")
+                .addEmail("delacasa@gmail.com")
                 .create();
 
         setContentView(sobre);
