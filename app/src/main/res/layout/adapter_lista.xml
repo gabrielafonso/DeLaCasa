@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="138dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Nome"
+        android:layout_weight="4"
+        android:id="@+id/textNome"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
